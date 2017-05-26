@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam.prm_391.MainActivity">
+
+
+    <Button
+        android:id="@+id/Demo1"
+        android:onClick="clicktoDemo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/Demo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/test"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:onClick="clicktoDemo2"
+        android:text="ViewFliper" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_below="@+id/Demo1"
+        android:layout_toEndOf="@+id/Demo1"
+        android:layout_marginStart="106dp" />
+
+    <Button
+        android:onClick="clicktoNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/Demo2"
+        android:text="Notification" />
+</RelativeLayout>

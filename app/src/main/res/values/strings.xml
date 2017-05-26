@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PRM_391</string>
+    <string name="callotheractivity">Call Other Activity</string>
+    <string name="tinhtong">Tinh Tong</string>
+    <string name="add">Add</string>
+    <string name="startbrowser">Start Browser</string>
+    <string name="childtextview">After Main Activity had called Child Activity</string>
+    <string name="back">Back to Caller</string>
+    <string name="startbrowserwithLI">Start Browser with Launch Action</string>
+    <string name="startphone">Start Phone</string>
+    <string name="exceptioncondition">Exception Condition</string>
+    <string name="sendSMS">Use Implicit Intent sending SMS</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Action Bar</string>
+    <string name="btn_send_message">Send Message</string>
+
+    <!-- Activity titles -->
+    <string name="activity_location_found">Location Found</string>
+
+    <!-- Action Bar action items -->
+    <string name="action_search">Sarch</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+
+    <!-- Search  -->
+    <string name="search_hint">Search color..</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam.prm_391.SdlingDrawer.ActivityHorizontal">
+
+    <SlidingDrawer
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <Button
+            android:id="@+id/handler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hander"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="@color/colorAccent">
+
+            <Button
+                android:id="@+id/buttonslider1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Handler"/>
+
+            <Button
+                android:id="@+id/buttonslider2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Handler"/>
+
+            <Button
+                android:id="@+id/buttonslider3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Handler"/>
+
+
+        </LinearLayout>
+
+
+    </SlidingDrawer>
+</android.support.constraint.ConstraintLayout>
